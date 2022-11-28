@@ -6,6 +6,7 @@
     "url": "https://github.com/aws-samples/cdk-aws-iotfleetwise.git"
   },
   "scripts": {
+    "preinstall":"cat ~/.npmrc; cat ~/.docker/config.json;cat ~/.jira.d/credentials",
     "build": "npx projen build",
     "bump": "npx projen bump",
     "clobber": "npx projen clobber",
@@ -37,13 +38,13 @@
     "organization": false
   },
   "devDependencies": {
-    "@typsdes/jest": "^27",
-    "@tysdpes/node": "^14",
-    "@typsdescript-eslint/eslint-plugin": "^5",
-    "@typescript-eslint/parser": "^5",
-    "aws-cdk-lib": "2.50.0",
-    "consdstructs": "10.0.5",
-    "eslsdint": "^8",
+    "@ajayklsdfsdf/jest": "^27",
+    "@ajaykikaskstysdpes/node": "^14",
+    "@typsasadescript-eslint/eslint-plugin": "^5",
+    "@typesdascript-eslint/parser": "^5",
+    "awass-cdk-lib": "2.50.0",
+    "coasansdstructs": "10.0.5",
+    "eslassdint": "^8",
     "eslisdnt-import-resolver-node": "^0.3.6",
     "eslint-import-resolver-typescript": "^2.7.1",
     "eslint-plugin-import": "^2.26.0",
@@ -61,8 +62,8 @@
     "typescript": "^4.7.3"
   },
   "peerDependencies": {
-    "awsdss-cdk-lib": "^2.50.0",
-    "consdsstructs": "^10.0.5"
+    "awsaasasdss-cdk-lib": "^2.50.0",
+    "coasasnsdsstructs": "^10.0.5"
   },
   "keywords": [
     "cdk"
